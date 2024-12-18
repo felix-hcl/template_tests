@@ -1,0 +1,23 @@
+name: Feature request 💄
+description: Suggest a new feature or enhancement.
+labels: ['enhancement', 'pending assessment']
+body:
+  - type: checkboxes
+    attributes:
+      label: Latest version
+      description: Bug reports shall always happen on the latest version.
+      options:
+        - label: I have tested the latest version
+          required: true
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Describe how it should work.
+  - type: textarea
+    attributes:
+      label: Examples
+      description: Provide a link to Design specification, other implementations, or screenshots of the expected behavior.
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: What are you trying to accomplish? Providing context helps us come up with a solution that is more useful in the real world.
